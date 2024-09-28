@@ -1,0 +1,85 @@
+/* 
+author: @esra'aEid
+github:  @EsraaEid2
+email: esraa.eidd2@gmail.com
+date: 2024-09-23
+project: Roya Mockup
+*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+:root {
+    --secondery-color: #CDC1FF;
+    --text-color: rgb(28, 43, 79);
+    --background-color: #f0f0f05b;
+}
+
+/* General Styles */
+
+* {
+    font-family: Almarai, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    color: var(--text-color); 
+}
+/*----- head ----- */
+.head{
+    padding-top: 20px;
+    color: var( --text-color);
+}
+
+.divLogoGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*----- the next row -----*/
+.logoFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.small-img{
+    width: 40px;
+    height: 40px;
+}
+
+.smallest-img{
+    width: 16px;
+    height: 16px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: inherit;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+    border-bottom: 2px solid #183379; 
+    color: #183379; 
+}
+
+.big-picture {
+    width: 60%;
+    height: auto; 
+}
+
+.textOfImg {
+    color: white;
+    z-index: 10;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5),#fff); 
+    padding: 10px; 
+    border-radius: 5px; 
+    transform: translateY(50%); 
+}
+
+.new-card{
+    
+}
